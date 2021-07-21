@@ -144,7 +144,7 @@ footer {
 
 #experience,
 #education {
-  background: #E9724C;
+  background: white;
 }
 
 .background-image {
@@ -443,6 +443,10 @@ a:hover, a:active, a:focus {
   background: url('../images/experience-img.jpg') no-repeat;
 }
 
+#experience .publication-img {
+  background: url('../images/publication-img.jpg') no-repeat;
+}
+
 #experience .media-heading {
   margin-bottom: 0px;
 }
@@ -462,11 +466,26 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #education {
-  background: #E3AE57;
+  background: white;
 }
 
 #education .education-img {
   background: url('../images/education-img.jpg') no-repeat;
+}
+
+#education .project-img {
+  background: url('../images/project-img.jpg') no-repeat;
+}
+
+#education .internship-img {
+  background: url('../images/internship-img.jpg') no-repeat;
+}
+
+#education .mc-img {
+  background: url('../images/mc-img.jpg') no-repeat;
+}
+#education .opentalk-img {
+  background: url('../images/opentalk.jpg') no-repeat;
 }
 
 #education .media-heading {
@@ -495,7 +514,7 @@ a:hover, a:active, a:focus {
     background-position: center center;
     color: #ffffff;
     position: relative;
-    padding: 100px 0px;
+    padding: 30px 0px;
 }
 
 #quotes .overlay {
@@ -523,7 +542,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #contact {
-  background: #E9724C;
+  background: white;
 }
 
 #contact .contact-form,
